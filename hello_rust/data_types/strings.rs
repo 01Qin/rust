@@ -4,7 +4,7 @@ fn main()
     let name = String::from("John"); // mutable UTF-8 encoded string type. from is an associated function of the String type.
 
     let mut message = String::from("Hello"); // mutable variable
-    hello.push('w';) // append a char to a String using the push method
+    hello.push('w'); // append a char to a String using the push method
     hello.push_str("orld!"); // append a &str to a String using the push_str method
 
     let s1 = String::from("Hello, world!");
