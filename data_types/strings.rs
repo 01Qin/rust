@@ -10,5 +10,6 @@ fn main()
     let s1 = String::from("Hello, world!");
     let s2 = s.replace("world", "Rust"); // s2 = "Hello, Rust!"
     // replace function replaces all non-overlapping occurrences of a specified pattern with another string.
-    
+
+    println!(name, s2, message);
 }
